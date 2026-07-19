@@ -1,7 +1,9 @@
-# LeetCode Problems
-My Leetcode Problems Soloutions based on [Neetcode.io](https://neetcode.io/roadmap)
+# LeetCode-Problems
 
+My Leetcode Problems
 
-- Arrays & Hashing
-    - contains Duplicate ✅
-    - Two Sum ✅
+**Built with:** JavaScript
+**Topics:** `jacascript`, `leetcode`, `leetcode-solutions`
+
+---
+↩ Part of the [**problem-solving**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

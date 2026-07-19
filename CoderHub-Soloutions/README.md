@@ -1,7 +1,9 @@
-# CoderHub Soloutions
-> First arabic platform specialized in Problem solving
+# CoderHub-Soloutions
 
-<p align="center">
-  <img src="IMG.png"/>
-</p>
-  
+My Soloutions for Coderhub.sa using javascript
+
+**Built with:** JavaScript
+**Topics:** `javascript`, `problem-solving`
+
+---
+↩ Part of the [**problem-solving**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

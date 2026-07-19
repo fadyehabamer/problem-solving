@@ -1,6 +1,9 @@
-# Edabit Problem Solving
-## In this repo :
-### Some problems that is solved for "Edabit Website" in "javaScript"
-#### with diffrent difficulty stages (very easy , easy , meduim , hard) and I think some "very hard problems" 🤣
-##### Tip : " Name of the problem === Name of the Js file "
- 
+# Edabit-problemSolving
+
+Edabit website Problems in javaScript
+
+**Built with:** JavaScript
+**Topics:** `edabit-website`, `javascript`
+
+---
+↩ Part of the [**problem-solving**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)
