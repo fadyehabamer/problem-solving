@@ -2,16 +2,16 @@
 
 > Competitive programming & problem-solving solutions
 
-**5 demos** consolidated from individual repositories — each preserved in its own folder.
+**5 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/problem-solving/)** — every demo is deployed to GitHub Pages.
 
-| Demo | Description |
-|------|-------------|
-| [`BeeCrowd-Soloutions`](./BeeCrowd-Soloutions/) | Soloution for problems from 'BeeCrowd' website  'Uri Online Judge' |
-| [`CoderHub-Soloutions`](./CoderHub-Soloutions/) | My Soloutions for Coderhub.sa using javascript |
-| [`Edabit-problemSolving`](./Edabit-problemSolving/) | Edabit website Problems in javaScript |
-| [`IdontKnowJS`](./IdontKnowJS/) | Code Snippets for javascript techniques , algorithms , features , questions |
-| [`LeetCode-Problems`](./LeetCode-Problems/) | My Leetcode Problems |
+| Demo | Description | Preview |
+|------|-------------|---------|
+| [`BeeCrowd-Soloutions`](./BeeCrowd-Soloutions/) | Soloution for problems from 'BeeCrowd' website  'Uri Online Judge' | — |
+| [`CoderHub-Soloutions`](./CoderHub-Soloutions/) | My Soloutions for Coderhub.sa using javascript | — |
+| [`Edabit-problemSolving`](./Edabit-problemSolving/) | Edabit website Problems in javaScript | — |
+| [`IdontKnowJS`](./IdontKnowJS/) | Code Snippets for javascript techniques , algorithms , features , questions | [🔗 Live](https://fadyehabamer.github.io/problem-solving/IdontKnowJS/BOM/Cookies/) |
+| [`LeetCode-Problems`](./LeetCode-Problems/) | My Leetcode Problems | — |
 
 ---
 
-Each folder is a standalone demo — open its `index.html` to view it. Previously separate repositories, merged here to keep the profile clean while preserving every file.
+Each folder is a standalone demo. Click **🔗 Live** to view it running, or open the folder for source. Previously separate repositories, merged here to keep the profile clean while preserving every file.
