@@ -9,7 +9,7 @@
 | [`BeeCrowd-Soloutions`](./BeeCrowd-Soloutions/) | Soloution for problems from 'BeeCrowd' website  'Uri Online Judge' | — |
 | [`CoderHub-Soloutions`](./CoderHub-Soloutions/) | My Soloutions for Coderhub.sa using javascript | — |
 | [`Edabit-problemSolving`](./Edabit-problemSolving/) | Edabit website Problems in javaScript | — |
-| [`IdontKnowJS`](./IdontKnowJS/) | Code Snippets for javascript techniques , algorithms , features , questions | [🔗 Live](https://fadyehabamer.github.io/problem-solving/IdontKnowJS/BOM/Cookies/) |
+| [`IdontKnowJS`](./IdontKnowJS/) | Code Snippets for javascript techniques , algorithms , features , questions | [🔗 Live](https://fadyehabamer.github.io/problem-solving/IdontKnowJS/) |
 | [`LeetCode-Problems`](./LeetCode-Problems/) | My Leetcode Problems | — |
 
 ---
