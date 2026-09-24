@@ -1,17 +1,15 @@
 function capSpace(txt) {
-    s2 = txt.toLowerCase();
-    result = "";
-    for (i = 0; i < txt.length; i++) {
-        if (txt[i] !== s2[i]) {
-            result = result + ' ' + txt[i];
+    let lower = txt.toLowerCase();
+    let result = "";
+    for (let i = 0; i < txt.length; i++) {
+        // a capital letter starts a new word (but not at the very start)
+        if (txt[i] !== lower[i] && i > 0) {
+            result = result + ' ' + lower[i];
         } else {
-            result = result + s2[i];
+            result = result + lower[i];
         }
     }
-    result.split(' ');
-    console.log (result.toLowerCase());
+    return result;
 }
 
-capSpace("iLikeSwimming!")
-
-
+console.log(capSpace("iLikeSwimming!"))
