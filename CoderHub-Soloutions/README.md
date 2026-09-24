@@ -106,7 +106,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [smallestNumber](./smallestNumber.js) | Arrays | Easy (est.) |  |
 | [SortArray](./SortArray.js) | Sorting | Easy (est.) | ✅ |
 | [SortArray2](./SortArray2.js) | Sorting | Easy (est.) | ✅ |
-| [sortByLength](./sortByLength.js) | Sorting | Easy (est.) |  |
+| [sortByLength](./sortByLength.js) | Sorting | Easy (est.) | ✅ |
 | [squares](./squares.js) | Math | Easy (est.) |  |
 | [stringContains](./stringContains.js) | Strings | Easy (est.) |  |
 | [subArrays](./subArrays.js) | Arrays | Easy (est.) |  |
