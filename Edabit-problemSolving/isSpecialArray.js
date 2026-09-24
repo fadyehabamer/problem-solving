@@ -7,7 +7,8 @@ function isSpecialArray(arr) {
             }
         }
         if(i%2==1){
-            if(arr[i]%2==1){
+            // -3 % 2 is -1 in JS, so compare the absolute remainder
+            if(Math.abs(arr[i]%2)==1){
                 check+=1
             }
         }
