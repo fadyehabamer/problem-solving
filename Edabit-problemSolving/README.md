@@ -39,7 +39,7 @@ Edabit website Problems in javaScript.
 | [isPotentialFriend](./isPotentialFriend.js) | Arrays | Easy (est.) |  |
 | [isSpecialArray](./isSpecialArray.js) | Arrays | Easy (est.) | ✅ |
 | [keysAndValues](./keysAndValues.js) | Objects | Easy (est.) |  |
-| [lastItem](./lastItem.js) | Arrays | Easy (est.) |  |
+| [lastItem](./lastItem.js) | Arrays | Easy (est.) | ✅ |
 | [lcm](./lcm.js) | Math | Easy (est.) |  |
 | [Make circle with OOP](./Make%20circle%20with%20OOP.js) | OOP | Easy (est.) |  |
 | [newWord](./newWord.js) | Strings | Easy (est.) |  |
