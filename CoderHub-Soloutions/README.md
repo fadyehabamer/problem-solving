@@ -109,7 +109,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [sortByLength](./sortByLength.js) | Sorting | Easy (est.) | ✅ |
 | [squares](./squares.js) | Math | Easy (est.) |  |
 | [stringContains](./stringContains.js) | Strings | Easy (est.) |  |
-| [subArrays](./subArrays.js) | Arrays | Easy (est.) |  |
+| [subArrays](./subArrays.js) | Arrays | Easy (est.) | ✅ |
 | [sumEven](./sumEven.js) | Math | Easy (est.) |  |
 | [sumOdd](./sumOdd.js) | Math | Easy (est.) |  |
 | [tribonnacci](./tribonnacci.js) | Math | Easy (est.) |  |

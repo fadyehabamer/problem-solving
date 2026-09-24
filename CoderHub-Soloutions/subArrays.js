@@ -1,12 +1,11 @@
 function subArrays(arr1, arr2) {
-    let result = [];
-    if (arr1.length == arr2.length) {
-        for (let i = 0; i < arr1.length; i++) {
-            result.push(arr2[i] - arr1[i]);
-        }
-
-        console.log(result)
+    if (arr1.length !== arr2.length) {
+        return null;
     }
-
+    let result = [];
+    for (let i = 0; i < arr1.length; i++) {
+        result.push(arr2[i] - arr1[i]);
+    }
+    return result;
 }
-subArrays([4 , 2 , 88],[2 , 4 , 88]	)
+console.log(subArrays([4 , 2 , 88],[2 , 4 , 88]));
