@@ -54,7 +54,7 @@ Edabit website Problems in javaScript.
 | [splitToDigit](./splitToDigit.js) | Arrays | Easy (est.) | ✅ |
 | [squareDigits](./squareDigits.js) | Math | Easy (est.) | ✅ |
 | [sumOfCubes](./sumOfCubes.js) | Math | Easy (est.) |  |
-| [testJackpot](./testJackpot.js) | Arrays | Easy (est.) |  |
+| [testJackpot](./testJackpot.js) | Arrays | Easy (est.) | ✅ |
 | [tetra](./tetra.js) | Math | Easy (est.) |  |
 | [warOfNumbers](./warOfNumbers.js) | Math | Easy (est.) | ✅ |
 | [zipIt](./zipIt.js) | Arrays | Easy (est.) | ✅ |
