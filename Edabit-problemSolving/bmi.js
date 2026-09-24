@@ -21,10 +21,12 @@ function bmi (){
     }
     }
 
-    console.log( `jhon bmi is ${jhon.calcBmi()} and mike bmi is ${mike.calcBmi()}` )
-    if(jhon.calcBmi() > mike.calcBmi() ){
-    console.log(`jhon is bigger`)
-    }else if (jhon.calcBmi() < mike.calcBmi() ){  console.log(`mike is bigger `) }else{  console.log(`they are
-    equal`)  }
+    if (jhon.calcBmi() > mike.calcBmi()) {
+        return `jhon is bigger`;
     }
-    bmi()
+    if (jhon.calcBmi() < mike.calcBmi()) {
+        return `mike is bigger`;
+    }
+    return `they are equal`;
+    }
+    console.log(bmi())

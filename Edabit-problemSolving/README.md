@@ -17,7 +17,7 @@ Edabit website Problems in javaScript.
 | [addEnding](./addEnding.js) | Arrays | Easy (est.) |  |
 | [AlphabetSoup](./AlphabetSoup.js) | Strings | Easy (est.) |  |
 | [arrayOfMultiples](./arrayOfMultiples.js) | Math | Easy (est.) | ✅ |
-| [bmi](./bmi.js) | Objects | Easy (est.) |  |
+| [bmi](./bmi.js) | Objects | Easy (est.) | ✅ |
 | [calculator](./calculator.js) | Basics | Easy (est.) | ✅ |
 | [capToFront](./capToFront.js) | Strings | Easy (est.) |  |
 | [changeEnough](./changeEnough.js) | Math | Easy (est.) | ✅ |
