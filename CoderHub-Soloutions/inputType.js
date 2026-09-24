@@ -15,4 +15,4 @@ function checkInput (value){
     }
 
 }
-console.log(CheckInput(5));
+console.log(checkInput(5));
