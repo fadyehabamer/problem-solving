@@ -85,7 +85,8 @@ function search(head, val) {
 }
 
 // Example usage
-let head = new Node(10);
+// (head is already declared above, so reassign it instead of redeclaring with let)
+head = new Node(10);
 head = insertAtEnd(head, 20);
 head = insertAtEnd(head, 30);
 traverse(head); // Output: 10, 20, 30
