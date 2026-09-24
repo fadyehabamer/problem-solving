@@ -19,7 +19,7 @@ console.log(names.length)  //* remains 3 !!
 // * splice
 
 let numbers = [1,2,3,4,5]
-console.log(number.length);  // * 5
+console.log(numbers.length);  // * 5
 
 // * remove "1" from array
 numbers.splice(0,1)

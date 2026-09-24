@@ -6,11 +6,15 @@
 // domain=domain; 
 // secure";)
 
-document.cookie = "fName:Fady; expires=Sun, 1 Jan 2023 12:00:00 UTC; path=/";
-// document.cookie = "lName:Amer; path=/";
+// * a cookie is written as name=value (with "=", not ":"),
+// * and an expires date in the past deletes it immediately, so compute a future one
+let expires = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toUTCString(); // one week from now
 
-// modify the cookie
-document.cookie = "fName:FADY; expires=Sun, 1 Jan 2023 12:00:00 UTC; path=/";
+document.cookie = "fName=Fady; expires=" + expires + "; path=/";
+// document.cookie = "lName=Amer; path=/";
 
-// delete cookie
-document.cookie = "fName; expires=Mon, 1 Jan 2022 12:00:00 UTC; path=/"; 
+// modify the cookie (same name and path, new value)
+document.cookie = "fName=FADY; expires=" + expires + "; path=/";
+
+// delete cookie (same name and path, expires in the past)
+document.cookie = "fName=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/"; 

@@ -7,9 +7,10 @@ function cumulativeAddition (array){
     // }
     // return [sum,array.length];
     
-        return 
-            [array.reduce(function(accumulator,currentValue){
-            return accumulator + currentValue;}),array.length]
+        // the value must start on the same line as `return`, otherwise
+        // automatic semicolon insertion makes the function return undefined
+        return [array.reduce(function(accumulator,currentValue){
+            return accumulator + currentValue;}, 0),array.length]
    
 }
 cumulativeAddition([1,2,4])

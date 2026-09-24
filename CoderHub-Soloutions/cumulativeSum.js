@@ -1,13 +1,15 @@
 function cumulativeSum(arr) {
+    // build a new array so the caller's array is not overwritten
+    let result = []
 	for(let i  = 0 ; i<arr.length ; i++){
         if(i === 0){
-            arr[i] = arr[i]
+            result[i] = arr[i]
         }else{
-            arr[i] = arr[i] + arr[i-1]
+            result[i] = arr[i] + result[i-1]
         }
     
     }
-    return arr
+    return result
 
 
     //arr [0] = 1            arr = [1]

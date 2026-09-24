@@ -1,0 +1,11 @@
+{
+  "name": "problem-solving",
+  "private": true,
+  "description": "Competitive programming & problem-solving solutions",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

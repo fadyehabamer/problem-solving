@@ -21,4 +21,6 @@ let { name: name2, age: age2 } = person;
 console.log(name2); // أحمد
 console.log(age2); // 30    
 
+let a = 1;
+let b = 2;
 [a, b] = [b, a]; // سحر! we can swap values without a temporary variable

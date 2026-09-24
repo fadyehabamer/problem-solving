@@ -1,7 +1,8 @@
 function oddsVsEvens(num) {
     let E_arr = [];
     let O_arr = [];
-    String(num).split('').map((item) => {
+    // use the absolute value so a leading '-' is not counted as a digit
+    String(Math.abs(num)).split('').map((item) => {
         parseInt(item) % 2 == 0 ? E_arr.push(item) : O_arr.push(item)
     })
     let oddFinal =  (O_arr.reduce((a, b) => { return parseInt(a) + parseInt(b) }, 0));

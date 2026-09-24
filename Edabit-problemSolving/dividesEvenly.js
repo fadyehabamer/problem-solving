@@ -1,10 +1,6 @@
 function dividesEvenly(a, b) {
-    if (a > b) {
-        if ((a / b) % 2 === 0) {
-            console.log (true)
-        } else {
-            console.log(false) 
-        }
-    }
+    // a divides evenly by b when there is no remainder
+    // (the old check tested whether the quotient was even, and returned nothing)
+    return a % b === 0
 }
-dividesEvenly(78,6)
+console.log(dividesEvenly(78,6))

@@ -8,9 +8,10 @@ function reverseArray(nums){
         let temp = nums[left];
         nums[left] = nums[right];
         nums[right] = temp
+        // move both pointers inside the loop, otherwise it never ends
+        left ++ 
+        right -- 
     }
-    left ++ 
-    right -- 
     
     return nums 
 }

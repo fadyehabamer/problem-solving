@@ -21,10 +21,16 @@ const postRequest = (title, body, userId) => {
             'Content-Type': 'application/json'
         }
     })
-        .then(response => response.json())
-        .then(sentData => console.log(sentData))
-        .catch(err => console.log(err))
-        .then(() => {
+        .then(response => {
+            // fetch only rejects on network errors, so check the HTTP status too
+            if (!response.ok) {
+                throw new Error(`Request failed with status ${response.status}`)
+            }
+            return response.json()
+        })
+        .then(sentData => {
+            console.log(sentData)
+            // only report success once the request has actually succeeded
             Swal.fire({
                 title: 'Success',
                 text:
@@ -32,6 +38,14 @@ const postRequest = (title, body, userId) => {
                 Body you sent is ${body} 
                 UserId you sent is ${userId}
                 `,
+            })
+        })
+        .catch(err => {
+            console.log(err)
+            Swal.fire({
+                title: 'Error',
+                text: err.message,
+                icon: 'error',
             })
         })
 }

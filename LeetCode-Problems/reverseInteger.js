@@ -10,8 +10,10 @@ var reverse = function (x) {
       result.splice(stringx.length);
     }
   }
-  if (result.join('') >= -2147483648 && result.join('') <= 2147483647) {
-    return result.join('');
+  // join() gives a string such as "021"; convert it so we return 21 (a number)
+  let reversed = Number(result.join(''));
+  if (reversed >= -2147483648 && reversed <= 2147483647) {
+    return reversed;
   } else {
     return 0;
   }

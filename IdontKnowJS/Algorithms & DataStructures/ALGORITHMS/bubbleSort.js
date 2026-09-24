@@ -46,9 +46,9 @@ function bubbleSort2(arr) {
     // * because end element is the largest (we dont need it any more)
     end--
 }
-// * excution
+// * excution (on the second, still unsorted copy; unordered is already sorted above)
 do {
-    bubbleSort2(unordered)
+    bubbleSort2(unordered2)
 } while (swapped)
 
-console.log(unordered);
+console.log(unordered2);

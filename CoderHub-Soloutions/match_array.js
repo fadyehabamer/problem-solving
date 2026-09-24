@@ -1,12 +1,17 @@
 function match_array(array1, array2) {
-    var result = true;
-    for (var i = 0; i < array2.length; i++) {
-        if (array2.indexOf(array1[i]) === -1) {
-            result = false;
-        }
-        console.log(array1.indexOf(array2[i]));
+    // same length and every element of array1 used exactly once in array2
+    if (array1.length !== array2.length) {
+        return false;
     }
-    return result;
+    var remaining = array2.slice();
+    for (var i = 0; i < array1.length; i++) {
+        var index = remaining.indexOf(array1[i]);
+        if (index === -1) {
+            return false;
+        }
+        remaining.splice(index, 1);
+    }
+    return true;
 
 }
 
