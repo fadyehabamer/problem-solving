@@ -2,11 +2,12 @@ function wordRepeat(word, n) {
     //repeat word n times and add space in between
 
     //your code here
-    var result = "";
+    // join() puts the space only between words (no trailing space)
+    var result = [];
     for (var i = 0; i < n; i++) {
-        result += word + " ";
+        result.push(word);
     }
-    return result;
+    return result.join(" ");
 
 }
 
