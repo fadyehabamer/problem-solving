@@ -24,8 +24,12 @@ function convertTime(time) {
         }
     } else {
         if (hour >= 12) {
-            newHour = parseInt(hour) - 12;
+            // 12:xx is 12:xx pm, not 0:xx pm
+            newHour = hour == 12 ? 12 : parseInt(hour) - 12;
             return (newHour + ":" + minute[0]).replace(',', ' ') + ' pm';
+        } else if (hour == 0) {
+            // 00:xx is 12:xx am
+            return ("12:" + minute[0]).replace(',', ' ') + ' am';
         } else {
             return (hour + ":" + minute[0]).replace(',', ' ') + ' am';
         }
