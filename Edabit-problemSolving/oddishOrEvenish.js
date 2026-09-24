@@ -1,6 +1,7 @@
 function oddishOrEvenish(num) {
     let output = [];
-    let snumber = num.toString()
+    // use the absolute value so a leading '-' is not read as a digit (NaN)
+    let snumber = Math.abs(num).toString()
     for(let i=0;i<snumber.length;i++){
         output.push(+snumber[i])
     }
