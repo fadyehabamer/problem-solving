@@ -30,7 +30,7 @@ Edabit website Problems in javaScript.
 | [even](./even.js) | Arrays | Easy (est.) | ✅ |
 | [findNemo](./findNemo.js) | Strings | Easy (est.) | ✅ |
 | [firstLast](./firstLast.js) | Arrays | Easy (est.) |  |
-| [flatten](./flatten.js) | Arrays | Easy (est.) |  |
+| [flatten](./flatten.js) | Arrays | Easy (est.) | ✅ |
 | [getAbsSum](./getAbsSum.js) | Arrays | Easy (est.) |  |
 | [indexMultiplier](./indexMultiplier.js) | Math | Easy (est.) | ✅ |
 | [intWithinBounds](./intWithinBounds.js) | Math | Easy (est.) |  |
