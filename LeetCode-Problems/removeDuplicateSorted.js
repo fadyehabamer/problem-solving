@@ -1,4 +1,5 @@
 var removeDuplicates = function (nums) {
+ if (nums.length === 0) return 0; // no elements -> no unique elements
  let i = 0; 
 for (let j = 1; j < nums.length; j++) {
     // إحنا بنهتم لما نلاقي رقم "مختلف" بس
