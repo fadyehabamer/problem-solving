@@ -43,7 +43,7 @@ Edabit website Problems in javaScript.
 | [lcm](./lcm.js) | Math | Easy (est.) |  |
 | [Make circle with OOP](./Make%20circle%20with%20OOP.js) | OOP | Easy (est.) |  |
 | [newWord](./newWord.js) | Strings | Easy (est.) |  |
-| [numbersSum](./numbersSum.js) | Arrays | Easy (est.) |  |
+| [numbersSum](./numbersSum.js) | Arrays | Easy (est.) | ✅ |
 | [objectToArray](./objectToArray.js) | Objects | Easy (est.) |  |
 | [oddishOrEvenish](./oddishOrEvenish.js) | Math | Easy (est.) | ✅ |
 | [percentageChanged](./percentageChanged.js) | Math | Easy (est.) | ✅ |
