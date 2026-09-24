@@ -79,7 +79,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [match_array](./match_array.js) | Arrays | Easy (est.) | ✅ |
 | [mathExpr](./mathExpr.js) | Strings | Easy (est.) | ✅ |
 | [maxElement](./maxElement.js) | Arrays | Easy (est.) |  |
-| [mergeSort](./mergeSort.js) | Sorting | Easy (est.) |  |
+| [mergeSort](./mergeSort.js) | Sorting | Easy (est.) | ✅ |
 | [middleChar](./middleChar.js) | Strings | Easy (est.) |  |
 | [missingLetter](./missingLetter.js) | Strings | Easy (est.) |  |
 | [mostFrequentElement](./mostFrequentElement.js) | Hash map | Easy (est.) |  |
