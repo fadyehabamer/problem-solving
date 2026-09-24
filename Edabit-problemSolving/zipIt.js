@@ -1,11 +1,14 @@
 function zipIt(women, men) {
     let arr = [];
     if (women.length == men.length) {
-        arr.push(men, women)
+        // pair the i-th woman with the i-th man
+        for (let i = 0; i < women.length; i++) {
+            arr.push([women[i], men[i]])
+        }
     }
     else{
         return "sizes don't match"
     }
-    console.log(arr) 
+    return arr
 }
-zipIt(["Ana", "Amy", "Lisa"], ["Bob", "Josh", "Tim"])
+console.log(zipIt(["Ana", "Amy", "Lisa"], ["Bob", "Josh", "Tim"]))
