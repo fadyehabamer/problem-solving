@@ -4,6 +4,14 @@
 // * Shallow copy
 // * all values are copied and still connected from original variable
 
+// * Correction: `const b = a` below does not copy at all - both names point at the
+// * SAME object (a reference copy). The spread operator and Object.assign() make a
+// * SHALLOW copy: top-level properties are copied, but nested objects are still
+// * shared. For a real deep copy use structuredClone(a) (built into browsers and
+// * Node 17+) or JSON.parse(JSON.stringify(a)), which drops functions, undefined
+// * and turns Dates into strings.
+// * See https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy
+
 // * =====================================================
 
 // * Shallow Copy
@@ -27,7 +35,7 @@ console.log(b)
 
 // * ==================================================
 
-// * Deep Copy (spread operator) 
+// * Shallow Copy (spread operator) - nested objects are still shared 
 
 // const a = {id : 1 ,name:'fady'}
 // const b = {...a}
@@ -39,7 +47,7 @@ console.log(b)
 
 // * ==================================================
 
-// * Deep Copy (Object.assign() operator) 
+// * Shallow Copy (Object.assign()) - nested objects are still shared 
 
 // const a = {id : 1 ,name:'fady'}
 // const b = Object.assign({},a)
