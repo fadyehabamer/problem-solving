@@ -3,6 +3,6 @@ function arrayOfMultiples(num, length) {
     for (let i = 1; i <= length;i++){
         new_arr.push(num * i)
     }
-    console.log(new_arr)
+    return new_arr;
 }
-arrayOfMultiples(7,5)
+console.log(arrayOfMultiples(7,5));

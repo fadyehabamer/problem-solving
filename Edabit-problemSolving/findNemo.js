@@ -1,15 +1,8 @@
 let findNemo = (sentence) => {
-    var t = "I found Nemo at ",
-        f = "I can't find Nemo :(",
-        x = sentence.split(" ")
-    if (sentence.includes("Nemo")) {
-        if (x.indexOf("Nemo") == -1) {
-            console.log(f)
-        } else {
-            console.log(t + parseInt(x.indexOf("Nemo") + 1) + "!");
-        }
-    } else {
-        console.log(f)
+    let index = sentence.split(" ").indexOf("Nemo");
+    if (index === -1) {
+        return "I can't find Nemo :(";
     }
+    return "I found Nemo at " + (index + 1) + "!";
 }
-findNemo("Is it Nemos, Nemona, Nemoor or Garfield?")
+console.log(findNemo("Is it Nemos, Nemona, Nemoor or Garfield?"))

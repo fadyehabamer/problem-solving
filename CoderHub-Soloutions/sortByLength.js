@@ -1,7 +1,7 @@
 function sortByLength(txt) {
-    let arr = txt.split(' ').sort((a, b) => a.localeCompare(b)).sort((a, b) => { return a.length - b.length })
-
-    console.log (arr.join(' '));
-
+    return txt
+        .split(' ')
+        .sort((a, b) => a.length - b.length || a.localeCompare(b))
+        .join(' ');
 }
-sortByLength('Have a nice day');
+console.log(sortByLength('Have a nice day'));

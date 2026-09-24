@@ -24,7 +24,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [areaOfSquare](./areaOfSquare.js) | Geometry | Easy (est.) |  |
 | [arrayRoot](./arrayRoot.js) | Arrays | Easy (est.) |  |
 | [average](./average.js) | Math | Easy (est.) |  |
-| [binToOctal](./binToOctal.js) | Base conversion | Easy (est.) |  |
+| [binToOctal](./binToOctal.js) | Base conversion | Easy (est.) | ✅ |
 | [calculateLength](./calculateLength.js) | Strings | Easy (est.) |  |
 | [capSpace](./capSpace.js) | Strings | Easy (est.) | ✅ |
 | [changeDateFormat](./changeDateFormat.js) | Dates & time | Easy (est.) |  |
@@ -39,7 +39,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [convertToSeconds](./convertToSeconds.js) | Basics | Easy (est.) |  |
 | [countChar](./countChar.js) | Strings | Easy (est.) |  |
 | [countDown](./countDown.js) | Basics | Easy (est.) |  |
-| [countOnes](./countOnes.js) | Math | Easy (est.) |  |
+| [countOnes](./countOnes.js) | Math | Easy (est.) | ✅ |
 | [countWords](./countWords.js) | Strings | Easy (est.) | ✅ |
 | [cubes](./cubes.js) | Math | Easy (est.) |  |
 | [cumulativeAddition](./cumulativeAddition.js) | Arrays | Easy (est.) | ✅ |
@@ -57,7 +57,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [factorial](./factorial.js) | Math | Easy (est.) | ✅ |
 | [findElement](./findElement.js) | Arrays | Easy (est.) |  |
 | [findElement92](./findElement92.js) | Arrays | Easy (est.) | ✅ |
-| [firstNVowels](./firstNVowels.js) | Strings | Easy (est.) |  |
+| [firstNVowels](./firstNVowels.js) | Strings | Easy (est.) | ✅ |
 | [flipEvenOdd](./flipEvenOdd.js) | Arrays | Easy (est.) | ✅ |
 | [get_king_names](./get_king_names.js) | Arrays | Easy (est.) |  |
 | [getCentury](./getCentury.js) | Dates & time | Easy (est.) |  |
@@ -77,9 +77,9 @@ My Soloutions for Coderhub.sa using javascript.
 | [lessOrMoreThanZero](./lessOrMoreThanZero.js) | Math | Easy (est.) |  |
 | [longestZero](./longestZero.js) | Math | Easy (est.) |  |
 | [match_array](./match_array.js) | Arrays | Easy (est.) | ✅ |
-| [mathExpr](./mathExpr.js) | Strings | Easy (est.) |  |
+| [mathExpr](./mathExpr.js) | Strings | Easy (est.) | ✅ |
 | [maxElement](./maxElement.js) | Arrays | Easy (est.) |  |
-| [mergeSort](./mergeSort.js) | Sorting | Easy (est.) |  |
+| [mergeSort](./mergeSort.js) | Sorting | Easy (est.) | ✅ |
 | [middleChar](./middleChar.js) | Strings | Easy (est.) |  |
 | [missingLetter](./missingLetter.js) | Strings | Easy (est.) |  |
 | [mostFrequentElement](./mostFrequentElement.js) | Hash map | Easy (est.) |  |
@@ -87,7 +87,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [number_range](./number_range.js) | Math | Easy (est.) |  |
 | [numberSum](./numberSum.js) | Math | Easy (est.) |  |
 | [numToEng](./numToEng.js) | Strings | Easy (est.) | ✅ |
-| [octToBin](./octToBin.js) | Base conversion | Easy (est.) |  |
+| [octToBin](./octToBin.js) | Base conversion | Easy (est.) | ✅ |
 | [octToDec](./octToDec.js) | Base conversion | Easy (est.) |  |
 | [octToHexX](./octToHexX.js) | Base conversion | Easy (est.) |  |
 | [oddEven](./oddEven.js) | Math | Easy (est.) |  |
@@ -105,11 +105,11 @@ My Soloutions for Coderhub.sa using javascript.
 | [smallest2numbers](./smallest2numbers.js) | Arrays | Easy (est.) | ✅ |
 | [smallestNumber](./smallestNumber.js) | Arrays | Easy (est.) |  |
 | [SortArray](./SortArray.js) | Sorting | Easy (est.) | ✅ |
-| [SortArray2](./SortArray2.js) | Sorting | Easy (est.) |  |
-| [sortByLength](./sortByLength.js) | Sorting | Easy (est.) |  |
+| [SortArray2](./SortArray2.js) | Sorting | Easy (est.) | ✅ |
+| [sortByLength](./sortByLength.js) | Sorting | Easy (est.) | ✅ |
 | [squares](./squares.js) | Math | Easy (est.) |  |
 | [stringContains](./stringContains.js) | Strings | Easy (est.) |  |
-| [subArrays](./subArrays.js) | Arrays | Easy (est.) |  |
+| [subArrays](./subArrays.js) | Arrays | Easy (est.) | ✅ |
 | [sumEven](./sumEven.js) | Math | Easy (est.) |  |
 | [sumOdd](./sumOdd.js) | Math | Easy (est.) |  |
 | [tribonnacci](./tribonnacci.js) | Math | Easy (est.) |  |

@@ -1,22 +1,15 @@
 function firstNVowels(phrase, n) {
     var vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
     var result = '';
-    var phraseArray = phrase.split('');
-    // console.log(phraseArray)
-    for (var i = 0; i < phraseArray.length; i++) {
-        if (vowels.includes(phraseArray[i])) {
-            result += phraseArray[i];
+    for (var i = 0; i < phrase.length; i++) {
+        if (vowels.includes(phrase[i])) {
+            result += phrase[i];
         }
     }
-    var resArray = result.split('');
 
-    if (resArray.length < n) {
-        console.log('invalid');
-    } else if (resArray.length > n) {
-        console.log(resArray.slice(0, n).join(''));
+    if (result.length < n) {
+        return 'invalid';
     }
-    else {
-        console.log(result);
-    }
+    return result.slice(0, n);
 }
-firstNVowels('Sharpening skills', 3);
+console.log(firstNVowels('Sharpening skills', 3));

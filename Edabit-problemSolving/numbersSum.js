@@ -7,6 +7,6 @@ function numbersSum(arr) {
         }
 
     }
-    console.log(result)
+    return result
 }
-numbersSum([1, 3, 4, "g"])
+console.log(numbersSum([1, 3, 4, "g"]))

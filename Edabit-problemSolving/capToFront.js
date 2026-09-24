@@ -9,6 +9,6 @@ function capToFront(s) {
         }
 
     }
-    console.log(cap_arr.concat(low_arr).join(""))
+    return cap_arr.concat(low_arr).join("")
 }
-capToFront("hApPy")
+console.log(capToFront("hApPy"))

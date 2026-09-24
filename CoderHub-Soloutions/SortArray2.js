@@ -1,8 +1,6 @@
 function sortArray(array) {
-    // write your code here
-    var sortedArray = array.sort(function(a, b) {
+    return [...array].sort(function(a, b) {
         return a - b;
-    })
-    console.log(sortedArray); 
+    });
 }
-sortArray([2,1])
+console.log(sortArray([2,1]));
