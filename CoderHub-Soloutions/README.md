@@ -39,7 +39,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [convertToSeconds](./convertToSeconds.js) | Basics | Easy (est.) |  |
 | [countChar](./countChar.js) | Strings | Easy (est.) |  |
 | [countDown](./countDown.js) | Basics | Easy (est.) |  |
-| [countOnes](./countOnes.js) | Math | Easy (est.) |  |
+| [countOnes](./countOnes.js) | Math | Easy (est.) | ✅ |
 | [countWords](./countWords.js) | Strings | Easy (est.) | ✅ |
 | [cubes](./cubes.js) | Math | Easy (est.) |  |
 | [cumulativeAddition](./cumulativeAddition.js) | Arrays | Easy (est.) | ✅ |
