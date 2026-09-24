@@ -19,7 +19,7 @@ Edabit website Problems in javaScript.
 | [arrayOfMultiples](./arrayOfMultiples.js) | Math | Easy (est.) | ✅ |
 | [bmi](./bmi.js) | Objects | Easy (est.) | ✅ |
 | [calculator](./calculator.js) | Basics | Easy (est.) | ✅ |
-| [capToFront](./capToFront.js) | Strings | Easy (est.) |  |
+| [capToFront](./capToFront.js) | Strings | Easy (est.) | ✅ |
 | [changeEnough](./changeEnough.js) | Math | Easy (est.) | ✅ |
 | [charCount](./charCount.js) | Strings | Easy (est.) |  |
 | [checkEnding](./checkEnding.js) | Strings | Easy (est.) |  |
