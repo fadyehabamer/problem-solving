@@ -22,7 +22,7 @@ My Leetcode Problems.
 | [Remove Duplicates from Sorted Array](./removeDuplicateSorted.js) | Two pointers | Easy | ✅ |
 | [Reverse Integer](./reverseInteger.js) | Math | Medium | ✅ |
 | [Roman to Integer](./romanToInt.js) | Hash map | Easy |  |
-| [Top K Frequent Elements](./topKFrequent.js) | Hash map / sorting | Medium |  |
+| [Top K Frequent Elements](./topKFrequent.js) | Hash map / bucket sort | Medium | ✅ |
 | [Two Sum](./TwoSum.js) | Hash map | Easy |  |
 | [Valid Anagram](./validAnagram.js) | Hash map | Easy |  |
 | [Valid Parentheses](./ValidParentheses.js) | Stack | Easy |  |
