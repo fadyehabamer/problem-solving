@@ -49,7 +49,7 @@ Edabit website Problems in javaScript.
 | [percentageChanged](./percentageChanged.js) | Math | Easy (est.) | ✅ |
 | [removeLeadingTrailing](./removeLeadingTrailing.js) | Basics | Easy (est.) |  |
 | [secondLargest](./secondLargest.js) | Arrays | Easy (est.) | ✅ |
-| [sevenBoom](./sevenBoom.js) | Arrays | Easy (est.) |  |
+| [sevenBoom](./sevenBoom.js) | Arrays | Easy (est.) | ✅ |
 | [sortIt](./sortIt.js) | Sorting | Easy (est.) |  |
 | [splitToDigit](./splitToDigit.js) | Arrays | Easy (est.) |  |
 | [squareDigits](./squareDigits.js) | Math | Easy (est.) | ✅ |
