@@ -28,7 +28,7 @@ Edabit website Problems in javaScript.
 | [dividesEvenly](./dividesEvenly.js) | Math | Easy (est.) | ✅ |
 | [doubleChar](./doubleChar.js) | Strings | Easy (est.) |  |
 | [even](./even.js) | Arrays | Easy (est.) | ✅ |
-| [findNemo](./findNemo.js) | Strings | Easy (est.) |  |
+| [findNemo](./findNemo.js) | Strings | Easy (est.) | ✅ |
 | [firstLast](./firstLast.js) | Arrays | Easy (est.) |  |
 | [flatten](./flatten.js) | Arrays | Easy (est.) |  |
 | [getAbsSum](./getAbsSum.js) | Arrays | Easy (est.) |  |
