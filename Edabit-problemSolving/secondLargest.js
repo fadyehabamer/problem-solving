@@ -1,10 +1,8 @@
 function secondLargest(arr) {
-  arr.sort(function (a, b) {
+  // sort a copy (sort() is in place) and return the value instead of logging it n times
+  let sorted = [...arr].sort(function (a, b) {
     return a - b;
   });
-  for (let i = 0; i < arr.length; i++) {
-    console.log(arr[arr.length - 2]);
-  }
-  console.log(arr.length);
+  return sorted[sorted.length - 2];
 }
-secondLargest([2, 3, 1, 0, 4, 66, 9]);
+console.log(secondLargest([2, 3, 1, 0, 4, 66, 9]));
