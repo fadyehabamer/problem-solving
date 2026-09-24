@@ -57,7 +57,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [factorial](./factorial.js) | Math | Easy (est.) | ✅ |
 | [findElement](./findElement.js) | Arrays | Easy (est.) |  |
 | [findElement92](./findElement92.js) | Arrays | Easy (est.) | ✅ |
-| [firstNVowels](./firstNVowels.js) | Strings | Easy (est.) |  |
+| [firstNVowels](./firstNVowels.js) | Strings | Easy (est.) | ✅ |
 | [flipEvenOdd](./flipEvenOdd.js) | Arrays | Easy (est.) | ✅ |
 | [get_king_names](./get_king_names.js) | Arrays | Easy (est.) |  |
 | [getCentury](./getCentury.js) | Dates & time | Easy (est.) |  |
