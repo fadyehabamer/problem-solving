@@ -22,10 +22,11 @@ stack.pop(); // -> removed طبق 3
 
 console.log(stack);
 
+// the top of the stack is the LAST element (stack[0] is the bottom)
 function peek(stack) {
-  console.log(stack[0]);
+  return stack[stack.length - 1];
 }
-peek(stack);
+console.log(peek(stack));
 
 function isEmpty(stack) {
   if (stack.length > 0) {
