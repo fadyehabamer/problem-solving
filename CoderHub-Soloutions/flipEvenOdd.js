@@ -1,7 +1,5 @@
 function filpEvenOdd(array) {
-	array.forEach((item,index)=>{
-        array[index] % 2 === 0 ? array[index] = array[index] + 1 : array[index] = array[index] - 1;
-    })
-    return(array);
+    // map() returns a new array instead of overwriting the caller's array
+	return array.map((item) => item % 2 === 0 ? item + 1 : item - 1);
 }
 filpEvenOdd([24, 13, 14, 18 ] )
