@@ -77,7 +77,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [lessOrMoreThanZero](./lessOrMoreThanZero.js) | Math | Easy (est.) |  |
 | [longestZero](./longestZero.js) | Math | Easy (est.) |  |
 | [match_array](./match_array.js) | Arrays | Easy (est.) | ✅ |
-| [mathExpr](./mathExpr.js) | Strings | Easy (est.) |  |
+| [mathExpr](./mathExpr.js) | Strings | Easy (est.) | ✅ |
 | [maxElement](./maxElement.js) | Arrays | Easy (est.) |  |
 | [mergeSort](./mergeSort.js) | Sorting | Easy (est.) |  |
 | [middleChar](./middleChar.js) | Strings | Easy (est.) |  |

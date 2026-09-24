@@ -1,13 +1,8 @@
 function mathExpr(expr) {
-    // console.log(/[a-zA-Z]/.test(expr))
     try {
-        if (typeof eval(expr) === "number" && expr.includes("&") === false) {
-            console.log(true , eval(expr))
-        } else {
-            console.log(false)
-        }
+        return typeof eval(expr) === "number" && expr.includes("&") === false;
     } catch (e) {
-        console.log(false);
+        return false;
     }
 }
-mathExpr('7&0')
+console.log(mathExpr('7&0'));
