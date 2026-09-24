@@ -1,6 +1,4 @@
 function binToOctal (b){
-    // convert binary to octal 
-    var octal = parseInt(b, 2).toString(8);
-    console.log( octal);
+    return parseInt(b, 2).toString(8);
 }
-binToOctal('1000000000');
+console.log(binToOctal('1000000000'));

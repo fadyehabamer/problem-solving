@@ -24,7 +24,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [areaOfSquare](./areaOfSquare.js) | Geometry | Easy (est.) |  |
 | [arrayRoot](./arrayRoot.js) | Arrays | Easy (est.) |  |
 | [average](./average.js) | Math | Easy (est.) |  |
-| [binToOctal](./binToOctal.js) | Base conversion | Easy (est.) |  |
+| [binToOctal](./binToOctal.js) | Base conversion | Easy (est.) | ✅ |
 | [calculateLength](./calculateLength.js) | Strings | Easy (est.) |  |
 | [capSpace](./capSpace.js) | Strings | Easy (est.) | ✅ |
 | [changeDateFormat](./changeDateFormat.js) | Dates & time | Easy (est.) |  |
