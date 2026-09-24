@@ -1,13 +1,11 @@
 function addStrNums(num1, num2) {
     let n1 = parseInt(num1, 10)
     let n2 = parseInt(num2, 10)
-    let res = parseInt(n1+n2, 10)    
-    if (isNaN(res / 0)) {
-        console.log(-1);
-    } else {
-        console.log(res);
+    // check the inputs themselves: the old check (isNaN(res / 0)) also
+    // returned -1 whenever the sum was 0, because 0 / 0 is NaN
+    if (isNaN(n1) || isNaN(n2)) {
+        return -1;
     }
-
+    return n1 + n2;
 }
-addStrNums("dee", "6")
-
+console.log(addStrNums("dee", "6"))
