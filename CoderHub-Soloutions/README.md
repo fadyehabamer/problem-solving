@@ -87,7 +87,7 @@ My Soloutions for Coderhub.sa using javascript.
 | [number_range](./number_range.js) | Math | Easy (est.) |  |
 | [numberSum](./numberSum.js) | Math | Easy (est.) |  |
 | [numToEng](./numToEng.js) | Strings | Easy (est.) | ✅ |
-| [octToBin](./octToBin.js) | Base conversion | Easy (est.) |  |
+| [octToBin](./octToBin.js) | Base conversion | Easy (est.) | ✅ |
 | [octToDec](./octToDec.js) | Base conversion | Easy (est.) |  |
 | [octToHexX](./octToHexX.js) | Base conversion | Easy (est.) |  |
 | [oddEven](./oddEven.js) | Math | Easy (est.) |  |
