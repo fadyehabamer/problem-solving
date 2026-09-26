@@ -1,5 +1,7 @@
 # problem-solving
 
+[![CI](https://github.com/fadyehabamer/problem-solving/actions/workflows/ci.yml/badge.svg)](https://github.com/fadyehabamer/problem-solving/actions/workflows/ci.yml)
+
 > Competitive programming & problem-solving solutions
 
 **5 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/problem-solving/)** — every demo is deployed to GitHub Pages.
